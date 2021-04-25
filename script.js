@@ -9,9 +9,11 @@ image.onload = function () {
 	drawImage();
 };
 
-function WDclose(){
-    window.close();
+function Wopen(){
+	window.close();
+    window.open("https://edukit.netlify.app/");
 }
+
 
 function drawImage() {
 	ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
